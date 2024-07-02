@@ -13,16 +13,16 @@ if pin==password:
     """)
     try:
         option =int(input("Enter your choice"))
-        if option==1:
+        elif option==1:
             print(f"Your balnce is {balance}")
-        if option==2:
+        elif option==2:
                 withdraw=int(input("enter withdrawal amount:"))
                 balance=balance-withdraw
-                if balance>0:
+                elif balance>0:
                     print(f"Your Balance is {balance}")
                 else:
                     print("Insufficient amount to withdraw")
-        if option==3:
+        elif option==3:
             deposit=int(input("enter deposit amount"))
             balance=balance+deposit
             print(f"Your current balance is {balance}")
