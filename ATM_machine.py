@@ -31,8 +31,8 @@ if pin==password:
         else:
             print("Invalid option")
     except:
-       print("Invalid option ")
+       print("Invalid input,enter a number ")
     
 else:
-    print("Wrong password ")
+    print("Wrong password,Try again ")
     
