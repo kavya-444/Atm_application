@@ -12,7 +12,7 @@ if pin==password:
     4==exit
     """)
     try:
-        option =int(input("Enter your choice"))
+        option =int(input("Enter your choice:"))
         if option==1:
             print(f"Your balnce is {balance}")
         elif option==2:
