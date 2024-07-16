@@ -14,7 +14,7 @@ if pin==password:
     try:
         option =int(input("Enter your choice:"))
         if option==1:
-            print(f"Your balnce is {balance}")
+            print(f"Your balance is {balance}")
         elif option==2:
                 withdraw=int(input("enter withdrawal amount:"))
                 balance=balance-withdraw
